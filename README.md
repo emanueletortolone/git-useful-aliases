@@ -39,6 +39,11 @@ $ git config --global alias.lgo 'log --graph --oneline'
 $ git config --global alias.last 'log -1 HEAD --stat'
 ```
 
+## Git amend without modifying the commit message aka `git include`
+```bash
+$ git add -A && git commit --amend --no-edit
+```
+
 ## Git force push HEAD aka `git force-push`
 ```bash
 $ git config --global alias.force-push 'push origin HEAD -f'
