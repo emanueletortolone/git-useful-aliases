@@ -41,7 +41,7 @@ $ git config --global alias.last 'log -1 HEAD --stat'
 
 ## Git amend without modifying the commit message aka `git include`
 ```bash
-$ git add -A && git commit --amend --no-edit
+$ git config --global alias.include 'git add -A && git commit --amend --no-edit'
 ```
 
 ## Git force push HEAD aka `git force-push`
